@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/CXO-Planning-Portal/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
